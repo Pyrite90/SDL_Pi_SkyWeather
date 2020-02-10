@@ -28,7 +28,10 @@ textnotifyAddress = "yourphonenumber@yourprovider"
 #MySQL Logging and Password Information
 
 enable_MySQL_Logging = False
+MySQL_Host = "my.domain.or.ip"
+MySQL_User = "sql_user"
 MySQL_Password = "password"
+MySQL_DB = "database_name"
 
 # modify this IP to enable WLAN operating detection  - search for WLAN_check in SkyWeather.py
 enable_WLAN_Detection = False
