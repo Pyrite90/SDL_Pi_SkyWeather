@@ -27,10 +27,10 @@ def sendWeatherUndergroundData( as3935LightningCount, as3935, as3935LastInterrup
 	# now weather station variables
 
 	myURL += "&winddir=%i" % currentWindDirection
-	print "cws=|",currentWindSpeed
+	print("cws=|",currentWindSpeed)
 
 	myURL += "&windspeedmph=%0.2f" % (currentWindSpeed/1.6)
-	 myURL += "&windgustmph=%0.2f" % (currentWindGust/1.6)
+	# myURL += "&windgustmph=%0.2f" % (currentWindGust/1.6)
 
 	myURL += "&humidity=%i" % outsideHumidity
 	myURL += "&tempf=%0.2f" % ((outsideTemperature*9.0/5.0)+32.0)
